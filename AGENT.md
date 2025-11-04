@@ -105,12 +105,18 @@ For each unprocessed item, research the following:
   - If parent organization exists and differs from project name, add it as "(by Organization Name)"
 
 ### 2. Runtime
-- Determine where/how the project runs:
+- **CRITICAL:** Identify the PRIMARY/MAIN product, not auxiliary tools
+  - Start with official website - what does the homepage promote?
+  - Use your model knowledge - ask yourself "What is [Product Name]?"
+  - Check documentation (Docs link) - look for "What is...?", "Introduction", "Quickstart" sections
+  - Example: TRAE's main product is an IDE (desktop app, plugins, web), even though they also have a separate "Trae Agent" CLI tool
+- Determine where/how the PRIMARY product runs:
   - **💻 CLI:** Runs in a terminal/command line
   - **🖥️ Binary:** Standalone desktop application to install locally (e.g., IDE, editor)
   - **🧩 Plugin:** Extension for existing software (e.g., VS Code extension, browser plugin)
   - **🌍 Web:** Web-based service accessed through a browser
-- If the project supports multiple runtimes, list all applicable types
+- If the PRIMARY product supports multiple runtimes, list all applicable types
+- Do NOT classify based on auxiliary/secondary tools in the ecosystem
 
 ### 3. Open-Source Status
 - Is the code publicly available?
@@ -148,6 +154,11 @@ For each unprocessed item, research the following:
 ### 6. Description
 - If text exists after the URL in the bullet point, use it (with typo fixes only)
 - If no text exists, create a concise single-sentence description
+- **Describe the PRIMARY/MAIN product:**
+  - Focus on what the main product IS (IDE, editor, platform, etc.)
+  - NOT auxiliary tools (CLI companions, SDKs, etc.)
+  - Use your model knowledge and official website to identify the primary product
+  - Example: For TRAE, describe the IDE (main product), not the Trae Agent CLI tool (auxiliary)
 - **Strip ALL marketing language:**
   - Remove adjectives: "adaptive", "intelligent", "smart", "advanced", "modern", "powerful"
   - Focus on WHAT it is, not HOW GOOD it is
@@ -157,20 +168,26 @@ For each unprocessed item, research the following:
 
 ## Research Process
 
-1. **Use WebSearch** to find information about the project
+1. **Identify the PRIMARY product first:**
+   - Use your model knowledge - ask yourself "What is [Product Name]?"
+   - This gives you a baseline understanding before doing research
 2. **Use WebFetch** to visit the project's official website:
+   - **Understand the main product** - what does the homepage promote?
+   - Look for download buttons, screenshots, main features
+   - Check documentation (Docs link) for "What is...", "Introduction", "Quickstart" sections
    - **Check copyright notice** for official spelling (e.g., "©2025 TRAE. All rights reserved.")
    - Check Terms of Service / Privacy Policy for official company name
    - Look at logo and branding
    - Check About page / footer for parent organization
-3. **Check GitHub** (if open-source):
+3. **Use WebSearch** to find additional information, but always prioritize official sources
+4. **Check GitHub** (if open-source):
    - **Use WebFetch on the web interface** (NOT the GitHub API):
      - `github.com/user/repo` for star count
      - `github.com/user/repo/releases` for release dates
      - `github.com/user/repo/tags` for version tags
    - Look for FIRST release/tag to determine launch date
    - Get current star count from the main repo page
-4. **Verify release dates** carefully:
+5. **Verify release dates** carefully:
    - For open-source: GitHub releases/tags FIRST (look for earliest release)
    - Check Product Hunt launch page (producthunt.com/products/[name]/launches)
    - Check Hacker News for INITIAL launch posts (search for "Show HN" or "Launch HN")
@@ -281,6 +298,7 @@ Note: The star count was updated from ~3.0k to ~3.2k and the date was updated to
 5. **Verification:** Double-check release dates with reliable sources, but approximate dates (month/year) are better than "Unknown"
 6. **Timeliness:** Update all "Last updated" dates to current date when processing
 7. **Spelling:** ALWAYS verify exact project name spelling from primary sources (copyright notices, legal documents) - NEVER rely solely on secondary sources like news articles
+8. **Primary Product Focus:** Always identify and describe the MAIN/PRIMARY product, not auxiliary tools - use model knowledge + official website + docs to determine what the core product is
 
 ## Important Notes
 
@@ -290,4 +308,5 @@ Note: The star count was updated from ~3.0k to ~3.2k and the date was updated to
 - Update ALL "Last updated" dates to today's date (both at the top of the document and below each table)
 - Update the top-level "Content last updated" line near the beginning of README.md with today's date
 - Be especially careful with release date research
+- **CRITICAL:** Always focus on the PRIMARY/MAIN product - check official website homepage and use your model knowledge to identify what the core product is (not auxiliary tools)
 - Maintain consistent formatting throughout
