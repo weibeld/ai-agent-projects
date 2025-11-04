@@ -17,10 +17,18 @@ _**🤖 Content last updated 2025-11-04 by AI.**_
 
 ## Design/UI/UX
 
-- https://www.superdesign.dev
-- https://stitch.withgoogle.com/
+| Project | Description | Open-Source | GitHub | Runtime | Released |
+|---------|-------------|-------------|--------|---------|----------|
+| **[Superdesign](https://www.superdesign.dev)** | Generates UI designs and components from prompts in IDEs. | ✅ | [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) (⭐️ ~5.1k) | 🧩 Plugin | [Oct 2025](https://news.ycombinator.com/item?id=44376003) |
+| **[Stitch](https://stitch.withgoogle.com/)** (by Google) | Generates web and mobile app UI from text or image prompts. | ❌ | ❌ | 🌍 Web | [May 2025](https://techcrunch.com/2025/05/20/google-launches-stitch-an-ai-powered-tool-to-help-design-apps/) |
+
+🤖 Content researched by AI. Last updated 2025-11-04.
 
 ## Sinosphere
 
-- https://www.codebanana.com/en/home
-- https://www.trae.ai/
+| Project | Description | Open-Source | GitHub | Runtime | Released |
+|---------|-------------|-------------|--------|---------|----------|
+| **[CodeBanana](https://www.codebanana.com/en/home)** | Collaborative coding platform with project-aware agents. | ❌ | ❌ | 🌍 Web | [Oct 2025](https://www.producthunt.com/products/codebanana) |
+| **[TRAE](https://www.trae.ai/)** | Adaptive AI IDE with configurable agent system. | ✅ | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) (⭐️ ~9.8k) | 🖥️ Binary | [Jul 2025](https://www.marktechpost.com/2025/07/07/bytedance-just-released-trae-agent-an-llm-based-agent-for-general-purpose-software-engineering-tasks/) |
+
+🤖 Content researched by AI. Last updated 2025-11-04.
