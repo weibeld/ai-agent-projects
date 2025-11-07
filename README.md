@@ -6,8 +6,8 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 ## Contents
 
-- [Agents](#agents)
-- [Agent Memory](#agent-memory)
+1. **[Agents](#agents)**
+2. **[Agent Memory](#agent-memory)**
 
 ## Agents
 
@@ -17,9 +17,9 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
+| **[Codemaps](https://cognition.ai/blog/codemaps)** (by Cognition) | Visualise code bases for understanding and navigation. | ❌ | ❌ | 🧩 Plugin/Extension | [Nov 2025](https://cognition.ai/blog/codemaps) |
 | **[Propolis](https://propolis.tech/)** | Swarms of agents simulating users for testing apps. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://news.ycombinator.com/item?id=45762012) |
 | **[NotebookLM](https://notebooklm.google/)** (by Google) | Upload sources and ask questions about them. | ❌ | ❌ | 🌍 Web App | [Jul 2023](https://en.wikipedia.org/wiki/NotebookLM) |
-| **[Codemaps](https://cognition.ai/blog/codemaps)** (by Cognition) | Visualise code bases for understanding and navigation. | ❌ | ❌ | 🧩 Plugin/Extension | [Nov 2025](https://cognition.ai/blog/codemaps) |
 
 ### Design/UI/UX
 
@@ -35,6 +35,8 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | **[CodeBanana](https://www.codebanana.com/en/home)** | Collaborative coding platform with real-time editing. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://www.producthunt.com/products/codebanana) |
 | **[TRAE](https://www.trae.ai/)** (by ByteDance) | IDE with code generation and agent-based automation. | ❌ | ❌ | 📊 Desktop App | [Jan 2025](https://pandaily.com/bytedance-launches-trae-ai-coding-tool-for-developers) |
 
+⬆️ [Back to Contents](#contents)
+
 ## Agent Memory
 
 ### General
@@ -48,3 +50,5 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 ### Chinese Projects
 
 - [MemOS](https://github.com/MemTensor/MemOS)
+
+⬆️ [Back to Contents](#contents)

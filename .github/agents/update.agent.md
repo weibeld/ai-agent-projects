@@ -27,9 +27,13 @@ Each section should have a table with the following columns:
 **Project:**
 - Format: `**[Project Name](URL)**` or `**[Project Name](URL)** (by Organization)`
 - Make the link bold
-- **ALWAYS check for parent organization:**
-  - If project has a parent company/organization different from the project name, add it as `(by Organization)`
-  - Examples: `**[NotebookLM](url)** (by Google)`, `**[TRAE](url)** (by ByteDance)`
+- **Parent organization - only add for well-known organizations:**
+  - Only add `(by Organization)` if the parent company/organization is well-known (e.g., Google, AWS, ByteDance, Microsoft, Meta, etc.)
+  - Well-known means: major tech companies, organizations with many other widely-used projects, or household names
+  - Do NOT add for lesser-known companies or startups that most people wouldn't recognize
+  - Examples where you SHOULD add: `**[NotebookLM](url)** (by Google)`, `**[TRAE](url)** (by ByteDance)`, `**[Amazon Bedrock AgentCore Memory](url)** (by AWS)`
+  - Examples where you should NOT add: small startups, unknown companies, individual developers
+  - When in doubt, omit the organization unless it's clearly a major well-known entity
   - Check: About page, footer, legal documents, press releases, Wikipedia
 - **CRITICAL:** Pay special attention to the exact spelling of project names:
   - Capitalization (e.g., "Superdesign" not "SuperDesign", "TRAE" not "Trae")
@@ -74,7 +78,12 @@ Each section should have a table with the following columns:
   - 📊 Desktop App: Application installed locally with graphical interface (e.g., desktop IDE or editor)
   - 🧩 Plugin/Extension: Extension or plugin for existing software (e.g., IDE extensions, browser plugins)
   - 🌍 Web App: Web-based application (accessed through a browser)
+  - 🔌 API: Service that provides an API as its main contribution (e.g., REST API, GraphQL API) without a primary GUI, designed to be accessed programmatically by other software
+  - 🧰 SDK: Software development kit or framework for building software, not runnable software itself (e.g., Claude Agent SDK, development libraries)
 - If a project supports multiple types, include all applicable emoji icons (e.g., `💻 CLI Tool, 🌍 Web App`)
+- **Distinguishing between types:**
+  - **API vs Web App:** If the main functionality is an API endpoint (accessed programmatically), use API. If the main functionality is a web interface to be used by users, use Web App
+  - **SDK vs CLI Tool:** If it's a library/framework for building apps (imported/used as dependency), use SDK. If it's an executable tool run from command line, use CLI Tool
 
 **Released:**
 - Format: `[Mon YYYY](source-url)`
@@ -124,6 +133,8 @@ For each unprocessed item, research the following:
   - **📊 Desktop App:** Application installed locally with graphical interface (e.g., IDE, editor)
   - **🧩 Plugin/Extension:** Extension for existing software (e.g., VS Code extension, browser plugin)
   - **🌍 Web App:** Web-based service accessed through a browser
+  - **🔌 API:** Service providing an API as main contribution (REST, GraphQL, etc.), accessed programmatically, no primary GUI
+  - **🧰 SDK:** Framework or library for building software, not runnable software itself (development kits, libraries)
 - If the PRIMARY product supports multiple types, list all applicable types
 - Do NOT classify based on auxiliary/secondary tools in the ecosystem
 
@@ -226,37 +237,68 @@ A section may contain:
 
 When a table already exists:
 1. Add new rows to the existing table for unprocessed items
-2. Append new entries to the end of the table in the same order as they appear in the bullet list
+2. Insert new entries in the correct position according to the project ordering rules (see "Project Ordering" section)
 3. Remove the bullet points after adding them to the table
+
+## Project Ordering
+
+Within each table, projects must be ordered as follows:
+
+1. **First: All open-source projects with GitHub repositories**
+   - Ordered by star count (highest to lowest)
+   - Example: A project with ~42.8k stars comes before one with ~5.2k stars
+
+2. **Second: All closed-source projects (no GitHub repo)**
+   - Ordered by release date (newest to oldest)
+   - Example: Oct 2025 comes before Jan 2025
+
+When adding new entries to an existing table, insert them in the correct position according to these rules, not just at the end.
 
 ## Table of Contents Maintenance
 
 The README has a "## Contents" section that must be kept up to date:
 
 1. List all level-2 headings (##) in the README, excluding "Contents" itself
-2. Format as markdown links: `- [Section Name](#section-anchor)`
-3. Convert section names to GitHub anchor format:
+2. Use an ordered list with bold section names
+3. Format as markdown links: `1. **[Section Name](#section-anchor)**`
+4. Convert section names to GitHub anchor format:
    - Lowercase all letters
    - Replace spaces with hyphens
    - Remove special characters
+   - Number the sections (1. Agents, 2. Agent Memory, etc.)
    - Example: "Agent Memory" → `#agent-memory`
-4. Keep it single-level (only ## headings, not ### subheadings)
+5. Keep it single-level (only ## headings, not ### subheadings)
 
 Example:
 ```markdown
 ## Contents
 
-- [Agents](#agents)
-- [Agent Memory](#agent-memory)
+1. **[Agents](#agents)**
+2. **[Agent Memory](#agent-memory)**
 ```
+
+## Section Navigation Links
+
+At the end of each level-2 section (##), after all subsections and tables, add a navigation link back to the Table of Contents:
+
+```markdown
+⬆️ [Back to Contents](#contents)
+```
+
+This should appear after the last subsection's table in each main section.
 
 ## Final Steps
 
 After processing all items:
 
 1. Remove all processed bullet points
-2. Update the Table of Contents with all current level-2 sections
-3. Update the top-level line near the beginning of README.md to today's date
+2. Ensure all projects within each table are ordered correctly (open-source by stars desc, then closed-source by date desc)
+3. Add "⬆️ [Back to Contents](#contents)" link at the end of each level-2 section
+4. Update the Table of Contents:
+   - Use ordered list format (1., 2., etc.)
+   - Make section names bold
+   - Format: `1. **[Section Name](#section-anchor)**`
+5. Update the top-level line near the beginning of README.md to today's date
    - Format: `> **✨🤖 Note: the content of this file has been researched by AI. Last update YYYY-MM-DD.**`
    - Use today's date in ISO format (YYYY-MM-DD)
 
@@ -314,7 +356,7 @@ Note: The star count was updated from ~3.0k to ~3.2k.
 3. **Neutrality:** Avoid promotional language
 4. **Completeness:** Research all required fields
 5. **Verification:** Double-check release dates with reliable sources, but approximate dates (month/year) are better than "Unknown"
-6. **Timeliness:** Update the Table of Contents and top-level "Last update" date when processing
+6. **Timeliness:** Update the Table of Contents and top-level "Last updated" date when processing
 7. **Spelling:** ALWAYS verify exact project name spelling from primary sources (copyright notices, legal documents) - NEVER rely solely on secondary sources like news articles
 8. **Primary Product Focus:** Always identify and describe the MAIN/PRIMARY product, not auxiliary tools - use model knowledge + official website + docs to determine what the core product is
 
@@ -324,7 +366,7 @@ Note: The star count was updated from ~3.0k to ~3.2k.
 - Update star counts for ALL existing GitHub repositories
 - For existing items: ONLY update the GitHub star count, do NOT modify any other fields
 - Update the Table of Contents to reflect all current level-2 sections
-- Update the top-level line near the beginning of README.md with today's date (format: `> **✨🤖 Note: the content of this file has been researched by AI. Last update YYYY-MM-DD.**`)
+- Update the top-level line near the beginning of README.md with today's date (format: `> **✨🤖 Note: the content of this file has been researched by AI. Last updated YYYY-MM-DD.**`)
 - Be especially careful with release date research
 - **CRITICAL:** Always focus on the PRIMARY/MAIN product - check official website homepage and use your model knowledge to identify what the core product is (not auxiliary tools)
 - Maintain consistent formatting throughout
