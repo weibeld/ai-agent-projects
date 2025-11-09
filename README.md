@@ -2,12 +2,13 @@
 
 Non-conclusive list of projects in the agentic AI world, organised across several categories.
 
-> **✨🤖 The contents of this file have been researched by AI. ✅ Last updated: 2025-11-07.**
+> **✨🤖 The contents of this file have been researched by AI. ✅ Last updated: 2025-11-09.**
 
 ## Contents
 
 1. **[Agents](#agents)**
 2. **[Agent Memory](#agent-memory)**
+3. **[Multi-Agent Orchestration](#multi-agent-orchestration)**
 
 ## Agents
 
@@ -60,6 +61,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 ## Multi-Agent Orchestration
 
-- https://www.swarms.ai/
-- https://www.eigent.ai/
-- https://openagents.org/
+| Project | Description | Open-Source | GitHub | Type | Released |
+|---------|-------------|-------------|--------|------|----------|
+| **[Swarms](https://www.swarms.ai/)** | Framework for building and deploying agent systems. | ✅ | [kyegomez/swarms](https://github.com/kyegomez/swarms) (⭐️ ~5.4k) | 🧰 SDK | [Nov 2023](https://github.com/kyegomez/swarms/releases) |
+| **[OpenAgents](https://openagents.org/)** | Platform for building networks of collaborative AI agents. | ✅ | [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents) (⭐️ ~4.6k) | 🌍 Web App | [Oct 2023](https://github.com/xlang-ai/OpenAgents) |
+| **[Eigent](https://www.eigent.ai/)** | Desktop app for building and managing agent workforces. | ✅ | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) (⭐️ ~2.4k) | 📊 Desktop App | [Jul 2025](https://github.com/eigent-ai/eigent/releases) |
+
+⬆️ [Back to Contents](#contents)
