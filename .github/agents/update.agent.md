@@ -35,29 +35,14 @@ Each section should have a table with the following columns:
   - Examples where you should NOT add: small startups, unknown companies, individual developers
   - When in doubt, omit the organization unless it's clearly a major well-known entity
   - Check: About page, footer, legal documents, press releases, Wikipedia
-- **CRITICAL:** Pay special attention to the exact spelling of project names:
-  - Capitalization (e.g., "Superdesign" not "SuperDesign", "TRAE" not "Trae")
-  - Spaces vs. hyphens (e.g., "Project Name" vs. "Project-Name")
-  - Special characters or styling
-- **To verify official spelling, check IN THIS ORDER:**
-  1. **Primary source (official website):**
-     - Copyright notice at the bottom (e.g., "©2025 TRAE. All rights reserved.")
-     - Legal documents (Terms of Service, Privacy Policy, About pages)
-     - Logo and branding as displayed on the official site
-  2. Secondary sources (news articles) - use only if primary source is unclear
-  - **NEVER** rely solely on how journalists or bloggers spell the name
-  - Primary sources are ALWAYS more authoritative than secondary sources
+- For project name spelling verification, see **Project Name Spelling Verification** in Core Research Guidelines below
 
 **Description:**
 - If the unprocessed item has text after the URL (e.g., `- https://example.com: foo bar baz`), use that text as the description
 - Only fix obvious typos if present
 - If the unprocessed item has only a URL, create a single short sentence description
 - Maximum length: 80 characters (if possible)
-- **Avoid all marketing language:**
-  - No buzzwords: "AI-powered", "revolutionary", "cutting-edge", "intelligent", "smart"
-  - No qualitative adjectives: "fast", "powerful", "best", "professional", "amazing", "advanced", "modern"
-  - No marketing modifiers: "adaptive", "seamless", "intuitive", "innovative", "robust", "comprehensive"
-  - Strip these words out completely - e.g., "Adaptive AI IDE" → "IDE", "Intelligent code editor" → "Code editor"
+- For guidance on avoiding marketing language, see **Marketing Language Removal** in Core Research Guidelines below
 - Keep it factual and concise - describe what it IS, not how good it is
 - End with a period
 
@@ -68,22 +53,11 @@ Each section should have a table with the following columns:
 **GitHub:**
 - If open-source with a GitHub repository: `[user/repo](https://github.com/user/repo) (⭐️ ~Xk)`
 - Format: Shorten URL to `user/repo` in the link text
-- Add star count in format: `(⭐️ ~X.Xk)` for thousands, `(⭐️ ~X)` for under 1k
-- Round to one decimal place for thousands (e.g., 5214 → ~5.2k, 847 → ~800, 12543 → ~12.5k)
+- For star count formatting, see **GitHub Star Count Formatting** in Core Research Guidelines below
 - If no repository: ❌
 
 **Type:**
-- Use emoji icons based on the type of software:
-  - 💻 CLI Tool: Command-line interface tool (runs in terminal)
-  - 📊 Desktop App: Application installed locally with graphical interface (e.g., desktop IDE or editor)
-  - 🧩 Plugin/Extension: Extension or plugin for existing software (e.g., IDE extensions, browser plugins)
-  - 🌍 Web App: Web-based application (accessed through a browser)
-  - 🔌 API: Service that provides an API as its main contribution (e.g., REST API, GraphQL API) without a primary GUI, designed to be accessed programmatically by other software
-  - 🧰 SDK: Software development kit or framework for building software, not runnable software itself (e.g., Claude Agent SDK, development libraries)
-- If a project supports multiple types, include all applicable emoji icons (e.g., `💻 CLI Tool, 🌍 Web App`)
-- **Distinguishing between types:**
-  - **API vs Web App:** If the main functionality is an API endpoint (accessed programmatically), use API. If the main functionality is a web interface to be used by users, use Web App
-  - **SDK vs CLI Tool:** If it's a library/framework for building apps (imported/used as dependency), use SDK. If it's an executable tool run from command line, use CLI Tool
+- For type definitions and how to use them, see **Project Type Definitions** in Core Research Guidelines below
 
 **Released:**
 - Format: `[Mon YYYY](source-url)`
@@ -103,7 +77,64 @@ Each section should have a table with the following columns:
   - Being off by a few days or even one month is better than "Unknown"
 - Only use `Unknown` (no link) if truly no evidence of launch timeframe can be found after exhaustive research
 
-## GitHub Data Retrieval Strategy
+## Core Research Guidelines
+
+### Project Name Spelling Verification
+
+**CRITICAL:** Pay special attention to the exact spelling of project names:
+- Capitalization (e.g., "Superdesign" not "SuperDesign", "TRAE" not "Trae")
+- Spaces vs. hyphens (e.g., "Project Name" vs. "Project-Name")
+- Special characters or styling
+
+**To verify official spelling, check IN THIS ORDER:**
+1. **Primary source (official website):**
+   - Copyright notice at the bottom (e.g., "©2025 TRAE. All rights reserved.")
+   - Legal documents (Terms of Service, Privacy Policy, About pages)
+   - Logo and branding as displayed on the official site
+2. Secondary sources (news articles) - use only if primary source is unclear
+   - **NEVER** rely solely on how journalists or bloggers spell the name
+   - Primary sources are ALWAYS more authoritative than secondary sources
+
+### Marketing Language Removal
+
+**Avoid all marketing language:**
+- No buzzwords: "AI-powered", "revolutionary", "cutting-edge", "intelligent", "smart"
+- No qualitative adjectives: "fast", "powerful", "best", "professional", "amazing", "advanced", "modern"
+- No marketing modifiers: "adaptive", "seamless", "intuitive", "innovative", "robust", "comprehensive"
+- Strip these words out completely - e.g., "Adaptive AI IDE" → "IDE", "Intelligent code editor" → "Code editor"
+- Keep it factual and concise - describe what it IS, not how good it is
+
+### Primary Product Identification
+
+**CRITICAL:** Identify the PRIMARY/MAIN product, not auxiliary tools:
+- Start with official website - what does the homepage promote?
+- Use your model knowledge - ask yourself "What is [Product Name]?"
+- Check documentation (Docs link) - look for "What is...?", "Introduction", "Quickstart" sections
+- Focus on the main product, not secondary tools
+- Example: TRAE's main product is a Desktop App IDE, even though they also have a separate "Trae Agent" CLI tool
+
+### Project Type Definitions
+
+Use emoji icons based on the type of software:
+- **💻 CLI Tool:** Command-line interface tool (runs in terminal)
+- **📊 Desktop App:** Application installed locally with graphical interface (e.g., desktop IDE or editor)
+- **🧩 Plugin/Extension:** Extension or plugin for existing software (e.g., IDE extensions, browser plugins)
+- **🌍 Web App:** Web-based application (accessed through a browser)
+- **🔌 API:** Service that provides an API as its main contribution (e.g., REST API, GraphQL API) without a primary GUI, designed to be accessed programmatically by other software
+- **🧰 SDK:** Software development kit or framework for building software, not runnable software itself (e.g., Claude Agent SDK, development libraries)
+
+**Distinguishing between types:**
+- **API vs Web App:** If the main functionality is an API endpoint (accessed programmatically), use API. If the main functionality is a web interface to be used by users, use Web App
+- **SDK vs CLI Tool:** If it's a library/framework for building apps (imported/used as dependency), use SDK. If it's an executable tool run from command line, use CLI Tool
+
+**Multiple types:** If a project supports multiple types, include all applicable emoji icons (e.g., `💻 CLI Tool, 🌍 Web App`)
+
+### GitHub Star Count Formatting
+
+- Format: `(⭐️ ~X.Xk)` for thousands, `(⭐️ ~X)` for under 1k
+- Round to one decimal place for thousands (e.g., 5214 → ~5.2k, 847 → ~800, 12543 → ~12.5k)
+
+### GitHub Data Retrieval Strategy
 
 When retrieving data from GitHub repositories (star counts, releases, tags), use the following priority:
 
@@ -123,12 +154,7 @@ For each unprocessed item, research the following:
 
 ### 1. Project Name and Parent Organization
 - Official name of the project
-- **Verify exact spelling from primary sources:**
-  - Check copyright notice on official website (e.g., "©2025 TRAE. All rights reserved.")
-  - Check legal documents (Terms of Service, Privacy Policy)
-  - Look at logo and branding on official site
-  - Do NOT rely solely on secondary sources (news articles, blog posts)
-- Verify capitalization, spaces, and hyphens
+- Use **Project Name Spelling Verification** guidelines (see Core Research Guidelines above)
 - **Parent organization:**
   - Check if project has a parent company/organization different from the project name
   - Common sources: About page, footer, legal documents, press releases
@@ -136,18 +162,8 @@ For each unprocessed item, research the following:
   - If parent organization exists and differs from project name, add it as "(by Organization Name)"
 
 ### 2. Type
-- **CRITICAL:** Identify the PRIMARY/MAIN product, not auxiliary tools
-  - Start with official website - what does the homepage promote?
-  - Use your model knowledge - ask yourself "What is [Product Name]?"
-  - Check documentation (Docs link) - look for "What is...?", "Introduction", "Quickstart" sections
-  - Example: TRAE's main product is a Desktop App IDE, even though they also have a separate "Trae Agent" CLI tool
-- Determine what TYPE the PRIMARY product is:
-  - **💻 CLI Tool:** Runs in a terminal/command line
-  - **📊 Desktop App:** Application installed locally with graphical interface (e.g., IDE, editor)
-  - **🧩 Plugin/Extension:** Extension for existing software (e.g., VS Code extension, browser plugin)
-  - **🌍 Web App:** Web-based service accessed through a browser
-  - **🔌 API:** Service providing an API as main contribution (REST, GraphQL, etc.), accessed programmatically, no primary GUI
-  - **🧰 SDK:** Framework or library for building software, not runnable software itself (development kits, libraries)
+- Use **Primary Product Identification** guidelines (see Core Research Guidelines above)
+- Use **Project Type Definitions** to determine what TYPE the PRIMARY product is (see Core Research Guidelines above)
 - If the PRIMARY product supports multiple types, list all applicable types
 - Do NOT classify based on auxiliary/secondary tools in the ecosystem
 
@@ -186,30 +202,20 @@ For each unprocessed item, research the following:
 ### 6. Description
 - If text exists after the URL in the bullet point, use it (with typo fixes only)
 - If no text exists, create a concise single-sentence description
-- **Describe the PRIMARY/MAIN product:**
-  - Focus on what the main product IS (IDE, editor, platform, etc.)
-  - NOT auxiliary tools (CLI companions, SDKs, etc.)
-  - Use your model knowledge and official website to identify the primary product
-  - Example: For TRAE, describe the IDE (main product), not the Trae Agent CLI tool (auxiliary)
-- **Strip ALL marketing language:**
-  - Remove adjectives: "adaptive", "intelligent", "smart", "advanced", "modern", "powerful"
-  - Focus on WHAT it is, not HOW GOOD it is
-  - Example: "Adaptive AI IDE" → "IDE"
-  - Example: "Intelligent code completion tool" → "Code completion tool"
+- Use **Primary Product Identification** guidelines (see Core Research Guidelines above)
+- Use **Marketing Language Removal** guidelines (see Core Research Guidelines above)
 - Be factual and neutral - describe function, not quality
 
 ## Research Process
 
 1. **Identify the PRIMARY product first:**
-   - Use your model knowledge - ask yourself "What is [Product Name]?"
+   - Use **Primary Product Identification** guidelines (see Core Research Guidelines above)
    - This gives you a baseline understanding before doing research
 2. **Use WebFetch** to visit the project's official website:
    - **Understand the main product** - what does the homepage promote?
    - Look for download buttons, screenshots, main features
    - Check documentation (Docs link) for "What is...", "Introduction", "Quickstart" sections
-   - **Check copyright notice** for official spelling (e.g., "©2025 TRAE. All rights reserved.")
-   - Check Terms of Service / Privacy Policy for official company name
-   - Look at logo and branding
+   - Use **Project Name Spelling Verification** guidelines to check copyright notice, legal documents, and branding (see Core Research Guidelines above)
    - Check About page / footer for parent organization
 3. **Use WebSearch** to find additional information, but always prioritize official sources
 4. **Check GitHub** (if open-source):
@@ -232,8 +238,8 @@ For each unprocessed item, research the following:
 
 For existing table entries with GitHub repositories:
 
-1. Get the current star count for each repository using the **GitHub Data Retrieval Strategy** (see above)
-2. Update the star count in the format `(⭐️ ~X.Xk)` or `(⭐️ ~X)` (rounded to one decimal place for thousands)
+1. Get the current star count for each repository using the **GitHub Data Retrieval Strategy** (see Core Research Guidelines above)
+2. Update the star count using the **GitHub Star Count Formatting** guidelines (see Core Research Guidelines above)
 3. ONLY update the GitHub star count. Do NOT change any other fields (project name, description, type, release date, etc.)
 
 ## Handling Mixed Processed and Unprocessed Items
@@ -421,20 +427,20 @@ Note: The star count was updated from ~3.0k to ~3.2k.
 
 1. **Accuracy:** All information must be verified from reliable sources
 2. **Consistency:** Follow the exact format specifications
-3. **Neutrality:** Avoid promotional language
+3. **Neutrality:** Avoid promotional language (see **Marketing Language Removal** in Core Research Guidelines)
 4. **Completeness:** Research all required fields
 5. **Verification:** Double-check release dates with reliable sources, but approximate dates (month/year) are better than "Unknown"
 6. **Timeliness:** Update the Table of Contents and top-level "Last updated" date when processing
-7. **Spelling:** ALWAYS verify exact project name spelling from primary sources (copyright notices, legal documents) - NEVER rely solely on secondary sources like news articles
-8. **Primary Product Focus:** Always identify and describe the MAIN/PRIMARY product, not auxiliary tools - use model knowledge + official website + docs to determine what the core product is
+7. **Spelling:** Use **Project Name Spelling Verification** guidelines (see Core Research Guidelines)
+8. **Primary Product Focus:** Use **Primary Product Identification** guidelines (see Core Research Guidelines)
 
 ## Important Notes
 
 - Process ALL unprocessed items in the README (all sections and subsections)
-- Update star counts for ALL existing GitHub repositories
+- Update star counts for ALL existing GitHub repositories (use **GitHub Data Retrieval Strategy** from Core Research Guidelines)
 - For existing items: ONLY update the GitHub star count, do NOT modify any other fields
 - Update the Table of Contents to reflect all current level-2 sections
 - Update the top-level line near the beginning of README.md with today's date (format: `> **✨🤖 Note: the content of this file has been researched by AI. Last updated YYYY-MM-DD.**`)
 - Be especially careful with release date research
-- **CRITICAL:** Always focus on the PRIMARY/MAIN product - check official website homepage and use your model knowledge to identify what the core product is (not auxiliary tools)
+- Follow all guidelines in **Core Research Guidelines** section
 - Maintain consistent formatting throughout
