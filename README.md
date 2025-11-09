@@ -1,6 +1,6 @@
 # Agentic AI Projects
 
-![Last Updated](https://img.shields.io/date/1762678925?label=✅%20Last%20AI%20Update&color=success)
+![Last Updated](https://img.shields.io/date/1762680118?label=✅%20Last%20AI%20Update&color=success)
 
 Non-conclusive list of projects in the agentic AI world, organised across several categories.
 
@@ -32,7 +32,9 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 ### Machine Learning
 
-- https://heyneo.so/
+| Project | Description | Open-Source | GitHub | Type | Released |
+|---------|-------------|-------------|--------|------|----------|
+| **[NEO](https://heyneo.so/)** | Autonomous ML engineer agent for end-to-end ML workflows. | ❌ | ❌ | 🌍 Web App | [Nov 2024](https://heyneo.so/blog) |
 
 ### Chinese Projects
 
