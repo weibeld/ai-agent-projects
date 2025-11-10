@@ -36,6 +36,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 |---------|-------------|-------------|--------|------|----------|
 | **[NEO](https://heyneo.so/)** | Autonomous ML engineer agent for end-to-end ML workflows. | ❌ | ❌ | 🌍 Web App | [Nov 2024](https://heyneo.so/blog) |
 
+### Security
+
+- https://github.com/yashab-cyber/HackGpt
+
 ### Chinese Projects
 
 | Project | Description | Open-Source | GitHub | Type | Released |
