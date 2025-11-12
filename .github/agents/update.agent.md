@@ -151,15 +151,14 @@ Use emoji icons based on the type of software:
 
 When retrieving data from GitHub repositories (star counts, releases, tags), use the following priority:
 
-1. **IF you are the GitHub Copilot coding agent AND have the relevant `github-mcp-server/*` tools:** Use those MCP server tools
-2. **ELSE IF you have other GitHub MCP server tools:** Use those tools
-3. **ELSE:** Use the public GitHub API (`https://api.github.com/repos/OWNER/REPO`) OR use WebFetch to scrape the GitHub web interface
+1. **IF you have GitHub MCP server tools available** (https://github.com/github/github-mcp-server/): Use those MCP server tools
+2. **ELSE:** Use the public GitHub API (`https://api.github.com/repos/OWNER/REPO`) OR use WebFetch to scrape the GitHub web interface
 
-**Specific tools for each data type:**
+**Specific GitHub MCP server tools for each data type:**
 
-- **Star counts:** `github-mcp-server/search_repositories` (extract `stargazers_count` field)
-- **Releases:** `github-mcp-server/list_releases` (find the FIRST/oldest release)
-- **Tags:** `github-mcp-server/list_tags` (find the FIRST/oldest tag)
+- **Star counts:** `search_repositories` with query `repo:OWNER/REPO` (extract `stargazers_count` field from results)
+- **Releases:** `list_releases` (find the FIRST/oldest release)
+- **Tags:** `list_tags` (find the FIRST/oldest tag)
 
 ## Research Requirements
 
