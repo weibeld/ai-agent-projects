@@ -119,4 +119,6 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | **[CodeBanana](https://www.codebanana.com/en/home)** | Collaborative coding platform with real-time editing. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://www.producthunt.com/products/codebanana) |
 | **[TRAE](https://www.trae.ai/)** (by ByteDance) | IDE with code generation and agent-based automation. | ❌ | ❌ | 📊 Desktop App | [Jan 2025](https://pandaily.com/bytedance-launches-trae-ai-coding-tool-for-developers) |
 
+- https://github.com/modelscope/AgentEvolver
+
 ⬆️ [Back to Contents](#contents)
