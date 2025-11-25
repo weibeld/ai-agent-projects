@@ -30,7 +30,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | **[Le Chat](https://chat.mistral.ai/chat)** (by Mistral AI) | Conversational AI assistant. | ❌ | ❌ | 🌍 Web App | [Feb 2025](https://mistral.ai/en/news/all-new-le-chat) |
 | **[Meta AI](https://www.meta.ai/)** (by Meta) | Conversational AI assistant. | ❌ | ❌ | 🌍 Web App | [Apr 2024](https://about.fb.com/news/2024/04/meta-ai-assistant-built-with-llama-3/) |
 | **[Grok](https://x.ai/grok)** (by xAI) | Conversational AI with real-time X integration. | ❌ | ❌ | 🌍 Web App | [Nov 2023](https://en.wikipedia.org/wiki/Grok_(chatbot)) |
-| **[Copilot](https://copilot.cloud.microsoft/)** (by Microsoft) | AI assistant integrated with Microsoft products. | ❌ | ❌ | 🌍 Web App | [Sep 2023](https://en.wikipedia.org/wiki/Microsoft_Copilot) |
+| **[Copilot Chat](https://copilot.cloud.microsoft/)** (by Microsoft) | AI assistant integrated with Microsoft products. | ❌ | ❌ | 🌍 Web App | [Sep 2023](https://en.wikipedia.org/wiki/Microsoft_Copilot) |
 | **[Claude](https://claude.ai/)** (by Anthropic) | Conversational AI assistant. | ❌ | ❌ | 🌍 Web App | [Mar 2023](https://www.scriptbyai.com/anthropic-claude-timeline/) |
 | **[Gemini](https://gemini.google.com/app)** (by Google) | Conversational AI assistant. | ❌ | ❌ | 🌍 Web App | [Mar 2023](https://en.wikipedia.org/wiki/Gemini_(chatbot)) |
 | **[Perplexity](https://www.perplexity.ai/)** | AI search chatbot with cited answers. | ❌ | ❌ | 🌍 Web App | [Dec 2022](https://en.wikipedia.org/wiki/Perplexity_AI) |
