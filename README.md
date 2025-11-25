@@ -1,6 +1,6 @@
 # Agentic Index: General Projects
 
-![Last Updated](https://img.shields.io/date/1764061018?label=✅%20Last%20AI%20Update&color=success)
+![Last Updated](https://img.shields.io/date/1764069067?label=✅%20Last%20AI%20Update&color=success)
 
 Non-conclusive list of projects in the agentic AI world, organised across several categories.
 
@@ -19,8 +19,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 7. **[Information Management](#information-management)**
 8. **[Web Browsers](#web-browsers)**
 9. **[Multi-Agent Orchestration](#multi-agent-orchestration)**
-10. **[Agent Memory](#agent-memory)**
-11. **[Chinese Projects](#chinese-projects)**
+10. **[Agent Memory/Context Engineering](#agent-memorycontext-engineering)**
+11. **[Workflows](#workflows)**
+12. **[Supporting (Non-Agent)](#supporting-non-agent)**
+13. **[Chinese Projects](#chinese-projects)**
 
 ## Chat
 
@@ -53,8 +55,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
 | **[NEO](https://heyneo.so/)** | Autonomous ML engineer agent for end-to-end ML workflows. | ❌ | ❌ | 🌍 Web App | [Nov 2024](https://heyneo.so/blog) |
-
-- https://k-dense.ai/
+| **[K-Dense](https://k-dense.ai/)** (by Biostate AI) | Multi-agent platform for biomedical research automation. | ❌ | ❌ | 🌍 Web App | [Sep 2025](https://www.globenewswire.com/news-release/2025/09/17/3151632/0/en/Biostate-AI-Launches-K-Dense-Beta-an-AI-Agent-That-Compresses-Research-Cycles-from-Years-to-Days-Validated-with-Harvard-Longevity-Discovery-Breakthrough.html) |
 
 ⬆️ [Back to Contents](#contents)
 
@@ -71,11 +72,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
 | **[MetaGPT](https://www.deepwisdom.ai/metagpt)** | Multi-agent framework for software development. | ✅ | [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) (⭐️ ~59.7k) | 🧰 SDK | [Jun 2023](https://github.com/FoundationAgents/MetaGPT/releases) |
+| **[Pyscn](https://github.com/ludo-technologies/pyscn)** | Python code quality analyzer with architecture and dependency analysis. | ✅ | [ludo-technologies/pyscn](https://github.com/ludo-technologies/pyscn) (⭐️ ~940) | 💻 CLI Tool | [Sep 2025](https://github.com/ludo-technologies/pyscn/releases) |
+| **[Rhesis](https://www.rhesis.ai/)** | Testing platform and SDK for LLM and agentic applications. | ✅ | [rhesis-ai/rhesis](https://github.com/rhesis-ai/rhesis) (⭐️ ~190) | 🌍 Web App, 🧰 SDK | [May 2024](https://www.crunchbase.com/organization/rhesis-ai) |
 | **[Propolis](https://propolis.tech/)** | Swarms of agents simulating users for testing apps. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://news.ycombinator.com/item?id=45762012) |
 | **[Codemaps](https://cognition.ai/blog/codemaps)** (by Cognition) | Visualise code bases for understanding and navigation. | ❌ | ❌ | 🧩 Plugin/Extension | [Nov 2025](https://cognition.ai/blog/codemaps) |
-
-- https://github.com/ludo-technologies/pyscn
-- https://www.rhesis.ai/
 
 ⬆️ [Back to Contents](#contents)
 
@@ -128,23 +128,30 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | **[Supermemory](https://supermemory.ai/)** | Memory engine for AI apps with web app and browser extension. | ✅ | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) (⭐️ ~13.6k) | 🌍 Web App, 🧩 Plugin/Extension, 🔌 API | [Oct 2025](https://techcrunch.com/2025/10/06/a-19-year-old-nabs-backing-from-google-execs-for-his-ai-memory-startup-supermemory/) |
 | **[Cognee](https://www.cognee.ai/)** | Memory engine using knowledge graphs and vector search. | ✅ | [topoteretes/cognee](https://github.com/topoteretes/cognee) (⭐️ ~9.1k) | 🧰 SDK | [Mar 2024](https://github.com/topoteretes/cognee/releases) |
 | **[Memori](https://memorilabs.ai/)** | Memory engine for LLMs and AI agents. | ✅ | [GibsonAI/Memori](https://github.com/GibsonAI/Memori) (⭐️ ~6.8k) | 🧰 SDK | [Aug 2025](https://github.com/GibsonAI/Memori/releases) |
+| **[Zep](https://www.getzep.com/)** | Context engineering platform using temporal knowledge graphs. | ✅ | [getzep/zep](https://github.com/getzep/zep) (⭐️ ~3.8k) | 🧰 SDK, 🔌 API | [Apr 2023](https://github.com/getzep/zep) |
+| **[OpenMemory](https://openmemory.cavira.app/)** | Self-hosted long-term memory engine for AI agents. | ✅ | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) (⭐️ ~2.3k) | 🧰 SDK | [Oct 2025](https://github.com/CaviraOSS/OpenMemory/releases) |
 | **[Context Link](https://context-link.ai/)** | Context management tool linking docs and notes to AI assistants. | ❌ | ❌ | 🌍 Web App | [Nov 2025](https://www.producthunt.com/products/context-link/launches) |
 | **[Amazon Bedrock AgentCore Memory](https://aws.amazon.com/bedrock/agentcore/)** (by AWS) | Managed memory service for AI agents. | ❌ | ❌ | 🔌 API | [Oct 2025](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-bedrock-agentcore-available/) |
 | **[myNeutron](https://myneutron.ai/)** | Chrome extension for persistent AI memory across platforms. | ❌ | ❌ | 🧩 Plugin/Extension | [Oct 2025](https://coinedition.com/vanar-launches-myneutron-the-first-decentralized-ai-memory-layer-for-permanent-portable-ai-context/) |
-
-- https://openmemory.cavira.app/
-- https://www.getzep.com/
 
 ⬆️ [Back to Contents](#contents)
 
 ## Workflows
 
-- https://opal.google/
+| Project | Description | Open-Source | GitHub | Type | Released |
+|---------|-------------|-------------|--------|------|----------|
+| **[Opal](https://opal.google/)** (by Google) | No-code app builder for AI workflow automation. | ❌ | ❌ | 🌍 Web App | [Jul 2025](https://developers.google.com/opal) |
+
+⬆️ [Back to Contents](#contents)
 
 ## Supporting (Non-Agent)
 
-- https://www.firecrawl.dev/
-- https://toonformat.dev/
+| Project | Description | Open-Source | GitHub | Type | Released |
+|---------|-------------|-------------|--------|------|----------|
+| **[Firecrawl](https://www.firecrawl.dev/)** | Web scraping API that converts websites to LLM-ready data. | ✅ | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) (⭐️ ~68.5k) | 🔌 API | [Apr 2024](https://github.com/firecrawl/firecrawl) |
+| **[TOON](https://toonformat.dev/)** | Token-efficient serialization format for LLM prompts. | ✅ | [toon-format/toon](https://github.com/toon-format/toon) (⭐️ ~19.5k) | 🧰 SDK | [Oct 2025](https://github.com/toon-format/toon/releases) |
+
+⬆️ [Back to Contents](#contents)
 
 ## Chinese Projects
 
