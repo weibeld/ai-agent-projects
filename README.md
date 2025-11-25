@@ -55,7 +55,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
 | **[NEO](https://heyneo.so/)** | Autonomous ML engineer agent for end-to-end ML workflows. | ❌ | ❌ | 🌍 Web App | [Nov 2024](https://heyneo.so/blog) |
-| **[K-Dense](https://k-dense.ai/)** (by Biostate AI) | Multi-agent platform for biomedical research automation. | ❌ | ❌ | 🌍 Web App | [Sep 2025](https://www.globenewswire.com/news-release/2025/09/17/3151632/0/en/Biostate-AI-Launches-K-Dense-Beta-an-AI-Agent-That-Compresses-Research-Cycles-from-Years-to-Days-Validated-with-Harvard-Longevity-Discovery-Breakthrough.html) |
+| **[K-Dense](https://k-dense.ai/)** (by Biostate AI) | Agentic ML engineer for scientific research and model training. | ✅ | [K-Dense-AI/karpathy](https://github.com/K-Dense-AI/karpathy) (⭐️ ~1k) | 🌍 Web App | [Sep 2025](https://www.globenewswire.com/news-release/2025/09/17/3151632/0/en/Biostate-AI-Launches-K-Dense-Beta-an-AI-Agent-That-Compresses-Research-Cycles-from-Years-to-Days-Validated-with-Harvard-Longevity-Discovery-Breakthrough.html) |
 
 ⬆️ [Back to Contents](#contents)
 
