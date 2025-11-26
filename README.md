@@ -1,6 +1,6 @@
 # Agentic Index: General Projects
 
-![Last Updated](https://img.shields.io/date/1764069067?label=✅%20Last%20AI%20Update&color=success)
+![Last Updated](https://img.shields.io/date/1764148012?label=✅%20Last%20AI%20Update&color=success)
 
 Non-conclusive list of projects in the agentic AI world, organised across several categories.
 
@@ -47,9 +47,8 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 |---------|-------------|-------------|--------|------|----------|
 | **[Superdesign](https://www.superdesign.dev)** | IDE extension for generating UI mockups and components. | ✅ | [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) (⭐️ ~5.4k) | 🧩 Plugin/Extension | [Jun 2025](https://github.com/superdesigndev/superdesign/releases) |
 | **[Stitch](https://stitch.withgoogle.com/)** (by Google) | Design tool that generates UI from prompts or sketches. | ❌ | ❌ | 🌍 Web App | [May 2025](https://techcrunch.com/2025/05/20/google-launches-stitch-an-ai-powered-tool-to-help-design-apps/) |
-
-- https://labs.google/fx/tools/image-fx
-- https://labs.google/fx/tools/whisk
+| **[Whisk](https://labs.google/fx/tools/whisk)** (by Google) | AI image remixing tool using image inputs for subject, scene, and style. | ❌ | ❌ | 🌍 Web App | [Dec 2024](https://blog.google/technology/google-labs/whisk/) |
+| **[ImageFX](https://labs.google/fx/tools/image-fx)** (by Google) | AI image generator using text prompts. | ❌ | ❌ | 🌍 Web App | [Feb 2024](https://techcrunch.com/2024/02/01/google-launches-an-ai-powered-image-generator/) |
 
 ⬆️ [Back to Contents](#contents)
 
@@ -57,8 +56,8 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
+| **[K-Dense](https://k-dense.ai/)** (by Biostate AI) | Agentic ML engineer for scientific research and model training. | ✅ | [K-Dense-AI/karpathy](https://github.com/K-Dense-AI/karpathy) (⭐️ ~1.1k) | 🌍 Web App | [Sep 2025](https://www.globenewswire.com/news-release/2025/09/17/3151632/0/en/Biostate-AI-Launches-K-Dense-Beta-an-AI-Agent-That-Compresses-Research-Cycles-from-Years-to-Days-Validated-with-Harvard-Longevity-Discovery-Breakthrough.html) |
 | **[NEO](https://heyneo.so/)** | Autonomous ML engineer agent for end-to-end ML workflows. | ❌ | ❌ | 🌍 Web App | [Nov 2024](https://heyneo.so/blog) |
-| **[K-Dense](https://k-dense.ai/)** (by Biostate AI) | Agentic ML engineer for scientific research and model training. | ✅ | [K-Dense-AI/karpathy](https://github.com/K-Dense-AI/karpathy) (⭐️ ~1k) | 🌍 Web App | [Sep 2025](https://www.globenewswire.com/news-release/2025/09/17/3151632/0/en/Biostate-AI-Launches-K-Dense-Beta-an-AI-Agent-That-Compresses-Research-Cycles-from-Years-to-Days-Validated-with-Harvard-Longevity-Discovery-Breakthrough.html) |
 
 ⬆️ [Back to Contents](#contents)
 
@@ -66,7 +65,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[HackGPT](https://github.com/yashab-cyber/HackGpt)** | Penetration testing platform for security assessments. | ✅ | [yashab-cyber/HackGpt](https://github.com/yashab-cyber/HackGpt) (⭐️ ~620) | 💻 CLI Tool, 🔌 API, 🌍 Web App | [Aug 2025](https://github.com/yashab-cyber/HackGpt) |
+| **[HackGPT](https://github.com/yashab-cyber/HackGpt)** | Penetration testing platform for security assessments. | ✅ | [yashab-cyber/HackGpt](https://github.com/yashab-cyber/HackGpt) (⭐️ ~630) | 💻 CLI Tool, 🔌 API, 🌍 Web App | [Aug 2025](https://github.com/yashab-cyber/HackGpt) |
 
 ⬆️ [Back to Contents](#contents)
 
@@ -116,7 +115,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[CrewAI](https://www.crewai.com/)** | Framework for orchestrating AI agents. | ✅ | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) (⭐️ ~40.7k) | 🧰 SDK | [Oct 2023](https://github.com/crewAIInc/crewAI/releases) |
+| **[CrewAI](https://www.crewai.com/)** | Framework for orchestrating AI agents. | ✅ | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) (⭐️ ~40.8k) | 🧰 SDK | [Oct 2023](https://github.com/crewAIInc/crewAI/releases) |
 | **[Swarms](https://www.swarms.ai/)** | Framework for building and deploying agent systems. | ✅ | [kyegomez/swarms](https://github.com/kyegomez/swarms) (⭐️ ~5.4k) | 🧰 SDK | [Nov 2023](https://github.com/kyegomez/swarms/releases) |
 | **[OpenAgents](https://openagents.org/)** | Platform for building networks of collaborative AI agents. | ✅ | [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents) (⭐️ ~4.6k) | 🌍 Web App | [Oct 2023](https://github.com/xlang-ai/OpenAgents) |
 | **[Eigent](https://www.eigent.ai/)** (by CAMEL-AI) | Desktop app for building and managing agent workforces. | ✅ | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) (⭐️ ~2.5k) | 📊 Desktop App | [Jul 2025](https://github.com/eigent-ai/eigent/releases) |
@@ -127,10 +126,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[Mem0](https://mem0.ai/)** | Memory layer for AI agents. | ✅ | [mem0ai/mem0](https://github.com/mem0ai/mem0) (⭐️ ~43.5k) | 🧰 SDK | [Mar 2025](https://github.com/mem0ai/mem0/releases) |
+| **[Mem0](https://mem0.ai/)** | Memory layer for AI agents. | ✅ | [mem0ai/mem0](https://github.com/mem0ai/mem0) (⭐️ ~43.6k) | 🧰 SDK | [Mar 2025](https://github.com/mem0ai/mem0/releases) |
 | **[Supermemory](https://supermemory.ai/)** | Memory engine for AI apps with web app and browser extension. | ✅ | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) (⭐️ ~13.6k) | 🌍 Web App, 🧩 Plugin/Extension, 🔌 API | [Oct 2025](https://techcrunch.com/2025/10/06/a-19-year-old-nabs-backing-from-google-execs-for-his-ai-memory-startup-supermemory/) |
-| **[Cognee](https://www.cognee.ai/)** | Memory engine using knowledge graphs and vector search. | ✅ | [topoteretes/cognee](https://github.com/topoteretes/cognee) (⭐️ ~9.1k) | 🧰 SDK | [Mar 2024](https://github.com/topoteretes/cognee/releases) |
-| **[Memori](https://memorilabs.ai/)** | Memory engine for LLMs and AI agents. | ✅ | [GibsonAI/Memori](https://github.com/GibsonAI/Memori) (⭐️ ~6.8k) | 🧰 SDK | [Aug 2025](https://github.com/GibsonAI/Memori/releases) |
+| **[Cognee](https://www.cognee.ai/)** | Memory engine using knowledge graphs and vector search. | ✅ | [topoteretes/cognee](https://github.com/topoteretes/cognee) (⭐️ ~9.2k) | 🧰 SDK | [Mar 2024](https://github.com/topoteretes/cognee/releases) |
+| **[Memori](https://memorilabs.ai/)** | Memory engine for LLMs and AI agents. | ✅ | [GibsonAI/Memori](https://github.com/GibsonAI/Memori) (⭐️ ~7.1k) | 🧰 SDK | [Aug 2025](https://github.com/GibsonAI/Memori/releases) |
 | **[Zep](https://www.getzep.com/)** | Context engineering platform using temporal knowledge graphs. | ✅ | [getzep/zep](https://github.com/getzep/zep) (⭐️ ~3.8k) | 🧰 SDK, 🔌 API | [Apr 2023](https://github.com/getzep/zep) |
 | **[OpenMemory](https://openmemory.cavira.app/)** | Self-hosted long-term memory engine for AI agents. | ✅ | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) (⭐️ ~2.3k) | 🧰 SDK | [Oct 2025](https://github.com/CaviraOSS/OpenMemory/releases) |
 | **[Context Link](https://context-link.ai/)** | Context management tool linking docs and notes to AI assistants. | ❌ | ❌ | 🌍 Web App | [Nov 2025](https://www.producthunt.com/products/context-link/launches) |
@@ -151,8 +150,8 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[Firecrawl](https://www.firecrawl.dev/)** | Web scraping API that converts websites to LLM-ready data. | ✅ | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) (⭐️ ~68.5k) | 🔌 API | [Apr 2024](https://github.com/firecrawl/firecrawl) |
-| **[TOON](https://toonformat.dev/)** | Token-efficient serialization format for LLM prompts. | ✅ | [toon-format/toon](https://github.com/toon-format/toon) (⭐️ ~19.5k) | 🧰 SDK | [Oct 2025](https://github.com/toon-format/toon/releases) |
+| **[Firecrawl](https://www.firecrawl.dev/)** | Web scraping API that converts websites to LLM-ready data. | ✅ | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) (⭐️ ~68.6k) | 🔌 API | [Apr 2024](https://github.com/firecrawl/firecrawl) |
+| **[TOON](https://toonformat.dev/)** | Token-efficient serialization format for LLM prompts. | ✅ | [toon-format/toon](https://github.com/toon-format/toon) (⭐️ ~19.6k) | 🧰 SDK | [Oct 2025](https://github.com/toon-format/toon/releases) |
 
 ⬆️ [Back to Contents](#contents)
 
@@ -161,7 +160,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
 | **[MemOS](https://github.com/MemTensor/MemOS)** | Memory operating system for LLMs. | ✅ | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) (⭐️ ~3.1k) | 🧰 SDK | [Jul 2025](https://github.com/MemTensor/MemOS/releases) |
-| **[AgentEvolver](https://github.com/modelscope/AgentEvolver)** | Self-evolving training framework for AI agents. | ✅ | [modelscope/AgentEvolver](https://github.com/modelscope/AgentEvolver) (⭐️ ~640) | 🧰 SDK | [Nov 2025](https://github.com/modelscope/AgentEvolver) |
+| **[AgentEvolver](https://github.com/modelscope/AgentEvolver)** | Self-evolving training framework for AI agents. | ✅ | [modelscope/AgentEvolver](https://github.com/modelscope/AgentEvolver) (⭐️ ~670) | 🧰 SDK | [Nov 2025](https://github.com/modelscope/AgentEvolver) |
 | **[CodeBanana](https://www.codebanana.com/en/home)** | Collaborative coding platform with real-time editing. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://www.producthunt.com/products/codebanana) |
 | **[TRAE](https://www.trae.ai/)** (by ByteDance) | IDE with code generation and agent-based automation. | ❌ | ❌ | 📊 Desktop App | [Jan 2025](https://pandaily.com/bytedance-launches-trae-ai-coding-tool-for-developers) |
 | **[Manus](https://manus.im/)** | Autonomous AI agent for executing real-world tasks. | ❌ | ❌ | 🌍 Web App | [Mar 2025](https://en.wikipedia.org/wiki/Manus_(AI_agent)) |
