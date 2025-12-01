@@ -45,6 +45,8 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[Meta AI](https://www.meta.ai/)** (by Meta) | Conversational AI assistant. | ❌ | ❌ | 🌍 Web App | [Apr 2024](https://about.fb.com/news/2024/04/meta-ai-assistant-built-with-llama-3/) |
 | **[Le Chat](https://chat.mistral.ai/chat)** (by Mistral AI) | Conversational AI assistant. | ❌ | ❌ | 🌍 Web App | [Feb 2025](https://mistral.ai/en/news/all-new-le-chat) |
 
+- https://lmarena.ai/
+
 ⬆️ [Back to Contents](#contents)
 
 ## Design/UI/UX
@@ -217,7 +219,6 @@ Living document listing projects in the agentic AI world, organised across sever
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
 | **[Portkey](https://portkey.ai/)** | AI gateway for routing and observability across LLMs. | ✅ | [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) (⭐️ ~10k) | 🔌 API, 🧰 SDK | [Jan 2023](https://siliconangle.com/2023/08/23/portkey-ai-closes-3m-seed-round-speed-ai-application-development/) |
-| **[models.dev](https://models.dev/)** | Open-source database of AI model specifications and pricing. | ✅ | [sst/models.dev](https://github.com/sst/models.dev) (⭐️ ~1.5k) | 🌍 Web App, 🔌 API | [Jun 2025](https://github.com/sst/models.dev) |
 | **[Eden AI](https://www.edenai.co/)** | Unified API for AI services across multiple providers. | ❌ | ❌ | 🔌 API | [2021](https://www.edenai.co/) |
 | **[OpenRouter](https://openrouter.ai/)** | Unified API for routing requests to multiple LLM providers. | ❌ | ❌ | 🔌 API | [Feb 2023](https://sacra.com/research/openrouter-100m-gmv/) |
 | **[Requesty](https://www.requesty.ai/)** | LLM gateway with routing, failover, and governance. | ❌ | ❌ | 🔌 API | [2023](https://pitchbook.com/profiles/company/588942-91) |
@@ -246,6 +247,7 @@ Living document listing projects in the agentic AI world, organised across sever
 |---------|-------------|-------------|--------|------|----------|
 | **[Firecrawl](https://www.firecrawl.dev/)** | Web scraping API that converts websites to LLM-ready data. | ✅ | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) (⭐️ ~68.9k) | 🔌 API | [Apr 2024](https://github.com/firecrawl/firecrawl) |
 | **[TOON](https://toonformat.dev/)** | Token-efficient serialization format for LLM prompts. | ✅ | [toon-format/toon](https://github.com/toon-format/toon) (⭐️ ~20k) | 🧰 SDK | [Oct 2025](https://github.com/toon-format/toon/releases) |
+| **[models.dev](https://models.dev/)** | Open-source database of AI model specifications and pricing. | ✅ | [sst/models.dev](https://github.com/sst/models.dev) (⭐️ ~1.5k) | 🌍 Web App, 🔌 API | [Jun 2025](https://github.com/sst/models.dev) |
 
 ⬆️ [Back to Contents](#contents)
 
