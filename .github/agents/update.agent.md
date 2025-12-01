@@ -282,8 +282,8 @@ Within each table, projects must be ordered as follows:
    - Example: A project with ~42.8k stars comes before one with ~5.2k stars
 
 2. **Second: All closed-source projects (no GitHub repo)**
-   - Ordered by release date (newest to oldest)
-   - Example: Oct 2025 comes before Jan 2025
+   - Ordered by release date (oldest to newest)
+   - Example: Jan 2025 comes before Oct 2025
 
 When adding new entries to an existing table, insert them in the correct position according to these rules, not just at the end.
 
