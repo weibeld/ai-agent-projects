@@ -235,7 +235,7 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[RunPod](https://www.runpod.io/)** | GPU cloud platform for AI and ML workloads. | ❌ | ❌ | 🔌 API | [2021](https://www.linktly.com/artificial-intelligence-software/runpod-review/) |
 | **[Amazon Bedrock](https://aws.amazon.com/bedrock/)** (by AWS) | Managed service for accessing foundation models via API. | ❌ | ❌ | 🔌 API, 🧰 SDK | [Sep 2023](https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-bedrock-generally-available/) |
 | **[Vertex AI](https://cloud.google.com/vertex-ai)** (by Google) | ML platform for training, deploying, and managing AI models. | ❌ | ❌ | 🔌 API, 🧰 SDK | [May 2021](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-launches-vertex-ai-unified-platform-for-mlops) |
-| **[Azure AI Foundry](https://ai.azure.com/)** (by Microsoft) | Platform for building and deploying AI applications. | ❌ | ❌ | 🔌 API, 🧰 SDK | [Nov 2024](https://azure.microsoft.com/en-us/blog/the-next-wave-of-azure-innovation-azure-ai-foundry-intelligent-data-and-more/) |
+| **[Microsoft Foundry](https://ai.azure.com/)** (by Microsoft) | Platform for building and deploying AI applications. | ❌ | ❌ | 🔌 API, 🧰 SDK | [Nov 2024](https://azure.microsoft.com/en-us/blog/the-next-wave-of-azure-innovation-azure-ai-foundry-intelligent-data-and-more/) |
 
 ⬆️ [Back to Contents](#contents)
 
