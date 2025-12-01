@@ -228,14 +228,14 @@ Living document listing projects in the agentic AI world, organised across sever
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[Hugging Face](https://huggingface.co/)** | AI platform for hosting, sharing, and deploying ML models. | ✅ | [huggingface](https://github.com/huggingface) (👥 ~15.5k followers) | 🌍 Web App, 🔌 API, 🧰 SDK | [Oct 2016](https://en.wikipedia.org/wiki/Hugging_Face) |
+| **[Hugging Face](https://huggingface.co/)** | AI platform for hosting, sharing, and deploying ML models. | ✅ | [huggingface](https://github.com/huggingface) (👥 ~56.3k followers) | 🌍 Web App, 🔌 API, 🧰 SDK | [Oct 2016](https://en.wikipedia.org/wiki/Hugging_Face) |
 | **[Together AI](https://www.together.ai/)** | Cloud platform for running and fine-tuning AI models. | ❌ | ❌ | 🔌 API | [Jun 2022](https://canvasbusinessmodel.com/blogs/brief-history/together-ai-brief-history) |
 | **[Modal](https://modal.com/)** | Serverless cloud platform for AI and ML workloads. | ❌ | ❌ | 🔌 API, 🧰 SDK | [Feb 2022](https://www.nycompanyregistry.com/companies/modal-labs-inc/) |
 | **[Replicate](https://replicate.com/)** | Cloud platform for running and hosting ML models via API. | ❌ | ❌ | 🔌 API | [2019](https://www.crunchbase.com/organization/replicate) |
 | **[RunPod](https://www.runpod.io/)** | GPU cloud platform for AI and ML workloads. | ❌ | ❌ | 🔌 API | [2021](https://www.linktly.com/artificial-intelligence-software/runpod-review/) |
 | **[Amazon Bedrock](https://aws.amazon.com/bedrock/)** (by AWS) | Managed service for accessing foundation models via API. | ❌ | ❌ | 🔌 API, 🧰 SDK | [Sep 2023](https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-bedrock-generally-available/) |
 | **[Vertex AI](https://cloud.google.com/vertex-ai)** (by Google) | ML platform for training, deploying, and managing AI models. | ❌ | ❌ | 🔌 API, 🧰 SDK | [May 2021](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-launches-vertex-ai-unified-platform-for-mlops) |
-| **[Azure AI](https://ai.azure.com/)** (by Microsoft) | Cloud platform for building and deploying AI applications. | ❌ | ❌ | 🔌 API, 🧰 SDK | [May 2024](https://visualstudiomagazine.com/articles/2024/05/21/azure-ai-studio-ga.aspx) |
+| **[Azure AI Foundry](https://ai.azure.com/)** (by Microsoft) | Platform for building and deploying AI applications. | ❌ | ❌ | 🔌 API, 🧰 SDK | [Nov 2024](https://azure.microsoft.com/en-us/blog/the-next-wave-of-azure-innovation-azure-ai-foundry-intelligent-data-and-more/) |
 
 ⬆️ [Back to Contents](#contents)
 
