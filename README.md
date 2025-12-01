@@ -74,7 +74,17 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[Midjourney](https://www.midjourney.com/)** | AI image generator using text prompts via Discord. | ❌ | ❌ | 🌍 Web App | [Jul 2022](https://en.wikipedia.org/wiki/Midjourney) |
 | **[NightCafe](https://creator.nightcafe.studio/)** | AI art creator with multiple generation models. | ❌ | ❌ | 🌍 Web App | [Nov 2019](https://creator.nightcafe.studio/about-nightcafe) |
 
+- https://grok.com/imagine
+- https://www.lovart.ai/
+- https://dreamina.capcut.com/
+
 ⬆️ [Back to Contents](#contents)
+
+## 3D Modelling
+
+- https://marble.worldlabs.ai/
+- https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/
+- https://www.magic3d.io/ (mention that it is a Chinese project)
 
 ## Audio
 
@@ -85,6 +95,9 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[Suno](https://suno.com/home)** | AI music generator for songs with vocals and lyrics. | ❌ | ❌ | 🌍 Web App | [Dec 2023](https://en.wikipedia.org/wiki/Suno_(Platform)) |
 | **[Stable Audio](https://stableaudio.com/)** (by Stability AI) | AI music and sound generator from text prompts. | ❌ | ❌ | 🌍 Web App | [Sep 2023](https://www.prnewswire.com/news-releases/stability-ai-launches-stable-audio-the-companys-first-product-to-generate-music-using-artificial-intelligence-301925909.html) |
 | **[ElevenLabs](https://elevenlabs.io/)** | AI voice synthesis platform for text-to-speech and cloning. | ❌ | ❌ | 🌍 Web App, 🔌 API | [Jan 2023](https://en.wikipedia.org/wiki/ElevenLabs) |
+
+- https://murf.ai/
+- https://www.naturalreaders.com/
 
 ⬆️ [Back to Contents](#contents)
 
@@ -165,6 +178,8 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[OpenAgents](https://openagents.org/)** | Platform for building networks of collaborative AI agents. | ✅ | [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents) (⭐️ ~4.6k) | 🌍 Web App | [Oct 2023](https://github.com/xlang-ai/OpenAgents) |
 | **[Eigent](https://www.eigent.ai/)** (by CAMEL-AI) | Desktop app for building and managing agent workforces. | ✅ | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) (⭐️ ~2.5k) | 📊 Desktop App | [Jul 2025](https://github.com/eigent-ai/eigent/releases) |
 
+- https://agpt.co/
+
 ⬆️ [Back to Contents](#contents)
 
 ## Agent Memory/Context Engineering
@@ -189,7 +204,15 @@ Living document listing projects in the agentic AI world, organised across sever
 |---------|-------------|-------------|--------|------|----------|
 | **[Opal](https://opal.google/)** (by Google) | No-code app builder for AI workflow automation. | ❌ | ❌ | 🌍 Web App | [Jul 2025](https://developers.google.com/opal) |
 
+- https://www.copy.ai/
+- https://workflow-builder.dev/
+
 ⬆️ [Back to Contents](#contents)
+
+## Model Aggregators
+
+- https://vercel.com/ai-gateway
+- TODO: add OpenRouter, etc. (see agentic-index-coding)
 
 ## Supporting (Non-Agent)
 
@@ -213,5 +236,7 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[TRAE](https://www.trae.ai/)** (by ByteDance) | IDE with code generation and agent-based automation. | ❌ | ❌ | 📊 Desktop App | [Jan 2025](https://pandaily.com/bytedance-launches-trae-ai-coding-tool-for-developers) |
 | **[Hailuo AI](https://hailuoai.video/)** (by MiniMax) | AI video generator from text and images. | ❌ | ❌ | 🌍 Web App | [Sep 2024](https://aimodelab.com/hailuo/) |
 | **[Kling AI](https://klingai.com/global/)** (by Kuaishou) | AI video generator for cinematic content. | ❌ | ❌ | 🌍 Web App | [Jun 2024](https://en.wikipedia.org/wiki/Kling_AI) |
+
+- https://wan.video/
 
 ⬆️ [Back to Contents](#contents)
