@@ -80,6 +80,10 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[Odyssey](https://experience.odyssey.ml/)** | Interactive AI video generator with real-time control. | ❌ | ❌ | 🌍 Web App | [May 2025](https://techcrunch.com/2025/05/28/odysseys-new-ai-model-streams-3d-interactive-worlds/) |
 | **[Grok Imagine](https://grok.com/imagine)** (by xAI) | AI image and video generator from text prompts. | ❌ | ❌ | 🌍 Web App | [Aug 2025](https://mashable.com/article/xai-grok-imagine) |
 
+- https://labs.google.com/mixboard/welcome
+- https://openart.ai/
+- https://www.opus.pro/agent
+
 ⬆️ [Back to Contents](#contents)
 
 ## 3D Modelling
@@ -104,6 +108,13 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[Suno](https://suno.com/home)** | AI music generator for songs with vocals and lyrics. | ❌ | ❌ | 🌍 Web App | [Dec 2023](https://en.wikipedia.org/wiki/Suno_(Platform)) |
 | **[MusicFX](https://labs.google/fx/tools/music-fx)** (by Google) | AI music generator from text prompts. | ❌ | ❌ | 🌍 Web App | [Feb 2024](https://www.digitalmusicnews.com/2024/02/06/googles-musicfx-has-created-more-than-10-million-tracks/) |
 | **[Udio](https://www.udio.com/)** | AI music generator for songs with realistic vocals. | ❌ | ❌ | 🌍 Web App | [Apr 2024](https://en.wikipedia.org/wiki/Udio) |
+
+⬆️ [Back to Contents](#contents)
+
+## Computer Use
+
+- https://www.simular.ai/
+- https://www.agiopen.org/
 
 ⬆️ [Back to Contents](#contents)
 
@@ -162,6 +173,13 @@ Living document listing projects in the agentic AI world, organised across sever
 
 ⬆️ [Back to Contents](#contents)
 
+## Information Sources
+
+- https://grokipedia.com/
+- https://codewiki.google/
+
+⬆️ [Back to Contents](#contents)
+
 ## Web Browsers
 
 | Project | Description | Open-Source | GitHub | Type | Released |
@@ -179,7 +197,6 @@ Living document listing projects in the agentic AI world, organised across sever
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[AutoGPT](https://agpt.co/)** | Platform for building and deploying autonomous AI agents. | ✅ | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) (⭐️ ~180k) | 🌍 Web App, 🧰 SDK | [Mar 2023](https://en.wikipedia.org/wiki/AutoGPT) |
 | **[CrewAI](https://www.crewai.com/)** | Framework for orchestrating AI agents. | ✅ | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) (⭐️ ~40.9k) | 🧰 SDK | [Oct 2023](https://github.com/crewAIInc/crewAI/releases) |
 | **[Swarms](https://www.swarms.ai/)** | Framework for building and deploying agent systems. | ✅ | [kyegomez/swarms](https://github.com/kyegomez/swarms) (⭐️ ~5.5k) | 🧰 SDK | [Nov 2023](https://github.com/kyegomez/swarms/releases) |
 | **[OpenAgents](https://openagents.org/)** | Platform for building networks of collaborative AI agents. | ✅ | [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents) (⭐️ ~4.6k) | 🌍 Web App | [Oct 2023](https://github.com/xlang-ai/OpenAgents) |
@@ -201,15 +218,20 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[myNeutron](https://myneutron.ai/)** | Chrome extension for persistent AI memory across platforms. | ❌ | ❌ | 🧩 Plugin/Extension | [Oct 2025](https://coinedition.com/vanar-launches-myneutron-the-first-decentralized-ai-memory-layer-for-permanent-portable-ai-context/) |
 | **[Context Link](https://context-link.ai/)** | Context management tool linking docs and notes to AI assistants. | ❌ | ❌ | 🌍 Web App | [Nov 2025](https://www.producthunt.com/products/context-link/launches) |
 
+- https://marketplace.visualstudio.com/items?itemName=backnotprop.prompt-tower
+
 ⬆️ [Back to Contents](#contents)
 
 ## Workflows
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
+| **[AutoGPT](https://agpt.co/)** | Platform for building and deploying autonomous AI agents. | ✅ | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) (⭐️ ~180k) | 🌍 Web App, 🧰 SDK | [Mar 2023](https://en.wikipedia.org/wiki/AutoGPT) |
 | **[Copy.ai](https://www.copy.ai/)** | AI workflow automation for sales and marketing. | ❌ | ❌ | 🌍 Web App | [Oct 2020](https://techcrunch.com/2021/10/14/writing-helper-copy-ai-closes-on-its-second-funding-round-this-year/) |
 | **[Opal](https://opal.google/)** (by Google) | No-code app builder for AI workflow automation. | ❌ | ❌ | 🌍 Web App | [Jul 2025](https://developers.google.com/opal) |
 | **[Workflow Builder](https://workflow-builder.dev/)** (by Vercel) | Visual workflow automation platform with AI generation. | ❌ | ❌ | 🌍 Web App | [Nov 2025](https://vercel.com/blog/workflow-builder-build-your-own-workflow-automation-platform) |
+
+- https://workspace.google.com/studio/ (launch announcement on https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work)
 
 ⬆️ [Back to Contents](#contents)
 
@@ -275,5 +297,7 @@ Living document listing projects in the agentic AI world, organised across sever
 | **[Manus](https://manus.im/)** | Autonomous AI agent for executing real-world tasks. | ❌ | ❌ | 🌍 Web App | [Mar 2025](https://en.wikipedia.org/wiki/Manus_(AI_agent)) |
 | **[CodeBanana](https://www.codebanana.com/en/home)** | Collaborative coding platform with real-time editing. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://www.producthunt.com/products/codebanana) |
 | **[Magic3D](https://www.magic3d.io/)** | AI 3D model generator from text and images. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://www.magic3d.io/) |
+
+- https://www.vidi2.app/
 
 ⬆️ [Back to Contents](#contents)
